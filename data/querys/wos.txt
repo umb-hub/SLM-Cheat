@@ -1,0 +1,25 @@
+TS=(
+  (cheat* OR "anti-cheat" OR anticheat OR "ban evasion" OR smurfing)
+  AND
+  (
+    "online gaming" OR videogame* OR esport* OR "e-sport" OR "e-sports" OR mmo* 
+    OR "battle royale" OR moba OR fps OR "first person shooter" 
+    OR "first-person shooter" OR "first-person-shooter"
+    OR (online NEAR/1 game*)
+    OR ("on-line" NEAR/1 game*)
+    OR (multiplayer NEAR/1 game*)
+    OR ("multi-player" NEAR/1 game*)
+    OR (multiplayer NEAR/2 online NEAR/1 game*)
+    OR ("multi-player" NEAR/2 online NEAR/1 game*)
+    OR (networked NEAR/2 game*)
+    OR (networked NEAR/2 computer)
+    OR (computer NEAR/1 game*)
+    OR (video NEAR/1 game*)
+  )
+)
+NOT TS=(
+  "serious game" OR "serious games" OR gamification OR gamified OR student* 
+  OR education* OR classroom OR school* OR plagiarism OR diabetes OR glucose 
+  OR insulin OR pregnancy OR rehabilitation OR electrode OR membrane OR hydrogen 
+  OR methanol OR soil OR crop OR aquaculture OR forestry OR archaeology OR textile*
+)

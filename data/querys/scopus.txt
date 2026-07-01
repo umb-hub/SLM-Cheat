@@ -1,0 +1,4 @@
+TITLE-ABS-KEY (
+(cheat* OR "anti-cheat" OR anticheat OR "ban evasion" OR smurfing)
+AND ("online gaming" OR videogame* OR esport* OR "e-sport" OR "e-sports" OR mmo* OR "battle royale" OR moba OR fps OR "first person shooter" OR "first-person shooter" OR "first-person-shooter" OR ( online W/1 game* ) OR ( "on-line" W/1 game* ) OR ( multiplayer W/1 game* ) OR ( "multi-player" W/1 game* ) OR ( multiplayer W/2 online W/1 game* ) OR ( "multi-player" W/2 online W/1 game* ) OR ( networked W/2 game* ) OR ( networked W/2 computer ) OR ( computer W/1 game* ) OR ( video W/1 game* )))
+AND NOT TITLE-ABS-KEY ("serious game" OR "serious games" OR gamification OR gamified OR student* OR education* OR classroom OR school* OR plagiarism OR diabetes OR glucose OR insulin OR pregnancy OR rehabilitation OR electrode OR membrane OR hydrogen OR methanol OR soil OR crop OR aquaculture OR forestry OR archaeology OR textile*)}
